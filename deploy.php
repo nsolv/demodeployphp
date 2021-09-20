@@ -10,7 +10,7 @@ set('application', 'demodeployphp');
 set('repository', 'git@github.com:nsolv/demodeployphp.git');
 
 // [Optional] Allocate tty for git clone. Default value is false.
-set('git_tty', true);
+set('git_tty', false);
 
 // Shared files/dirs between deploys
 set('shared_files', []);
